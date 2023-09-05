@@ -11,6 +11,8 @@ public class LoginTests extends TestBase {
 
         fillLoginRegistrationForm("love@mail.com", "abC121314#");
 
+         submitLogin();
+         
         pause(3000);
 
         Assert.assertTrue(isElementPresent(By.tagName("button")));

@@ -13,7 +13,7 @@ public class TestBase {
 
     public void init(){
        wd = new ChromeDriver();
-        wd.navigate().to("https://ilcarro.web.app/");
+        wd.navigate().to("https://ilcarro.web.app/search");
         wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     }
     @AfterMethod
